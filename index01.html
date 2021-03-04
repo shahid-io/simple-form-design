@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style media="screen">
+      form{
+        align: center;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>STUDENT REGISTRATION FORM</h2>
+    <form class="center">
+        <table border="2px">
+            <tr></tr>
+            <td><label for="firstname">First Name</label></td>
+            <td><input type="text" name="firstname" maxlength="50" size="30"></td>
+            <tr></tr>
+            <td><label for="lastname">Last Name</label></td>
+            <td><input type="text" name="lastname" maxlength="40" size="30"></td>
+            <tr></tr>
+            <td><label for="dateofbirth">Date Of Birth</label></td>
+            <td><input type="date" name="dob"></td>
+            <tr></tr>
+            <td><label for="mobile">Mobile</label></td>
+
+            <td><input type="text" maxlength="10"></td>
+            <tr></tr>
+            <td>
+              <label for="email">Email</label></td>
+                <td><input type="email" required></td>
+                <tr></tr>
+
+            <td><label for="gender">Gender</label></td>
+            <td><label>Male</label>
+                <input type="radio" name="gender">
+                <label>Female</label>
+                <input type="radio" name="gender">
+                <tr></tr>
+            <td><label for="city">City</label></td>
+            <td><select>
+                    <option>Patna</option>
+                    <option>Gaya</option>
+                    <option>Hazipur</option>
+                    <option>Chapra</option>
+                    <option>Sonpur</option>
+                </select></td>
+            <tr></tr>
+            <td><label for="street">Street</label></td>
+            <td><input type="text" maxlength="20"></td>
+            <tr></tr>
+            <td><label for="pincode">Pin Code</label></td>
+            <td><input type="text" maxlength="8"></td>
+            <tr></tr>
+            <td><label for="qualification">Qualification</label></td><tr></tr>
+                <th>Class</th><th>Percentage</th><th>Year of Passing</th><tr></tr>
+                    <th><label for="10th">10th</label></th>
+                        <td><input type="text" maxlength="3" required></td>
+                    <td><input type="date"></td>
+                    <tr></tr>
+                    <!-- Class 12th -->
+                    <th><label for="12th">12th</label></th>
+                        <td><input type="text" maxlength="3" required></td>
+                        <td><input type="date"></td>
+                        <tr></tr>
+                    <th><label for="graduation">Graduation</label></th>
+                        <td><input type="text" maxlength="3" required></td>
+                        <td><input type="date"></td>
+                        <tr></tr>
+            <!-- <tr></tr> -->
+            <td><input type="submit"></td>
+        </table>
+    </form>
+
+</body>
+</html>
